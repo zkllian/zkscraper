@@ -116,7 +116,7 @@ def page_crawler(keyword):
 def main():
 
     # a list of job roles to be crawled
-    key_words = ['agriculture','crop']
+    key_words = ['administration','designer']
     dfs = []
 
     for key in key_words:
@@ -124,7 +124,7 @@ def main():
         dfs.append(key_df)
 
     # save scraped information as csv
-    pd.concat(dfs).to_csv("job_postings_results.csv")
+    pd.concat(dfs).to_csv("job_results.csv")
 
 if __name__ == '__main__':
 	main()
