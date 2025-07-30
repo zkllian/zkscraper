@@ -1,5 +1,5 @@
-# JKScraper
-JKScraper is an open source automated tools. It allows you to scrape all jobs on Jobstreet website.
+# zkscraper
+zkscraper is an open source automated tools. It allows you to scrape all jobs on Jobstreet website.
 
 ## Getting Started
 1. `python -m venv venv` only for first time
